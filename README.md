@@ -64,7 +64,7 @@ In `models.email.go` we define our request structure for sending mail
 
  ## email/email.go
 
-In `emai/email/go` we send our request
+In `emai/email.go` we send our request
 
 ```go
 var req models.From
