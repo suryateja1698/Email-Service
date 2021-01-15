@@ -85,8 +85,22 @@ Here we need to pass API keys
 
 mailjetClient := mailjet.NewMailjetClient("", "")
 
-``` 
+After use `POSTMAN` and do `POST` request and send request like this 
 
+```go
+  "from_email":"s@gmail.com",
+    "name_from":"name1",
+    "to_email":"m98@gmail.com",
+    "name_to":"name2",
+    "cc_email":"msa@gmail.com",
+
+    "sub":"This is the test",
+    "text":"Hope it will work"
+ "name_cc":"sample",
+    "bcc_email":"tea1@gmail.com",
+	"namme_bcc":"Random",
+
+```
 
 
  
