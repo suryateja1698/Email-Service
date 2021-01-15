@@ -7,7 +7,7 @@ This is a Email Service application based on Golang, REST, Mux, Mailjet
  
  After installing `mailjet` package
 
- 1. ## main.go
+  ## main.go
    
    ``` go
    router := handler.NewRouter()
@@ -31,7 +31,7 @@ This is a Email Service application based on Golang, REST, Mux, Mailjet
 
    ```
 
-2. ## handler/handler.go
+ ## handler/handler.go
 
    In `handler.go` we can give our handler functions, here we are using `mux`
 
@@ -43,7 +43,7 @@ This is a Email Service application based on Golang, REST, Mux, Mailjet
 
 
 
-3. ## models/email.go
+## models/email.go
 
 In `models.email.go` we define our request structure for sending mail 
 
@@ -62,7 +62,7 @@ In `models.email.go` we define our request structure for sending mail
 }
 ```
 
-4. ## email/email.go
+ ## email/email.go
 
 In `emai/email/go` we send our request
 
@@ -74,7 +74,7 @@ var req models.From
 	resp, err := mailjetmail.SendEmailWithMailjet(r.Context(), req)
 ``` 
 
-5. ## mailjetmail/mailjet.go
+ ## mailjetmail/mailjet.go
 
 In `mailjetmail/mailjet.go` we use `mailjet` package and send our request to them, 
 
