@@ -101,6 +101,6 @@ After use `POSTMAN` and do `POST` request and send request like this
 	"namme_bcc":"Random",
 
 ```
-
+**You will successfully send email**
 
  
