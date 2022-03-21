@@ -96,11 +96,9 @@ After use `POSTMAN` and do `POST` request and send request like this
 
     "sub":"This is the test",
     "text":"Hope it will work"
- "name_cc":"sample",
+    "name_cc":"sample",
     "bcc_email":"tea1@gmail.com",
-	"namme_bcc":"Random",
+    "namme_bcc":"Random",
 
 ```
-**You will successfully send email**
-
  
